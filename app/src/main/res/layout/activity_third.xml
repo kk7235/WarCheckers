@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/newba"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/edit"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:background="@drawable/black_black"
+        android:textCursorDrawable="@color/black"
+        android:hint="Enter Second Warrior Name"
+        android:layout_margin="20dp"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:id="@+id/image"
+        android:background="@drawable/redb"
+        android:layout_height="80dp" />
+</LinearLayout>
